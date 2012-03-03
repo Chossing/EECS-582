@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -90,9 +90,25 @@ namespace ColorLabeling
 
             //for (int i = 0; i < _colorPixels.Length; i++) _bitmapBits[i] = 255;
             // Draw the un-mapped depth image
-            for (int i = 0; i < _depthPixels.Length; i++) _bitmapBits[4*i] = _bitmapBits[4*i + 1] = _bitmapBits[4*i + 2] = _bitmapBits[4*i + 3] = (byte)(255*(32767 - _depthPixels[i])/32767);
+            /*
+            for (int i = 0; i < _depthPixels.Length; i++)
+            {
+                //Console.WriteLine(_depthPixels[i]);
+                int threshold = 10000;
+                if (_depthPixels[i] < threshold)
+                {
+                    //_bitmapBits[4 * i] = _bitmapBits[4 * i + 1] = _bitmapBits[4 * i + 2] = _bitmapBits[4 * i + 3] = (byte)(255 * (threshold - _depthPixels[i]) / threshold);
+                    _bitmapBits[4 * i] = _colorPixels[4 * i];
+                    _bitmapBits[4 * i + 1] = _colorPixels[4 * i + 1];
+                    _bitmapBits[4 * i + 2] = _colorPixels[4 * i + 2];
+                    _bitmapBits[4 * i + 3] = _colorPixels[4 * i + 3];
 
+                }
+                else
+                    _bitmapBits[4 * i] = _bitmapBits[4 * i + 1] = _bitmapBits[4 * i + 2] = _bitmapBits[4 * i + 3] = (byte)255;
 
+            }
+            */
 
             /*
             // Put the color image into _bitmapBits
@@ -117,7 +133,8 @@ namespace ColorLabeling
                 if ((point.X >= 0 && point.X < 640) && (point.Y >= 0 && point.Y < 480))
                 {
                     int baseIndex = (point.Y * 640 + point.X) * 4;
-                    if ((depthVal <= 1000) && (depthVal > 400))
+                    //if ((depthVal <= 1000) && (depthVal > 400))
+                    if ((depthVal <= 2000) && (depthVal > 800))
                     {
                         // Bucketing for speeding it up a little bit.
                         /*
@@ -131,13 +148,13 @@ namespace ColorLabeling
                         _bitmapBits[baseIndex + 2] = colorMatch[0];
                         */
 
-                        //_bitmapBits[baseIndex] = _colorPixels[baseIndex];
-                        //_bitmapBits[baseIndex + 1] = _colorPixels[baseIndex + 1];
-                        //_bitmapBits[baseIndex + 2] = _colorPixels[baseIndex + 2];
+                        _bitmapBits[baseIndex] = _colorPixels[baseIndex];
+                        _bitmapBits[baseIndex + 1] = _colorPixels[baseIndex + 1];
+                        _bitmapBits[baseIndex + 2] = _colorPixels[baseIndex + 2];
 
                         //_bitmapBits[baseIndex] = _bitmapBits[baseIndex + 1] = _bitmapBits[baseIndex + 2] = (byte)depthVal;
                     } else {
-                        //_bitmapBits[baseIndex] = _bitmapBits[baseIndex + 1] = _bitmapBits[baseIndex + 2] = (byte)255;
+                        _bitmapBits[baseIndex] = _bitmapBits[baseIndex + 1] = _bitmapBits[baseIndex + 2] = (byte)255;
                     }
                 }
             }
