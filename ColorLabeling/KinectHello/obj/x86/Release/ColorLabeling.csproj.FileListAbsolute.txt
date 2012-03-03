@@ -11,3 +11,16 @@ C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\ob
 C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.exe
 C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.pdb
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.exe
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.pdb
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\bin\Release\ColorLabeling.exe
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\bin\Release\ColorLabeling.pdb
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\MainWindow.baml
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\MainWindow.g.cs
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\App.g.cs
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling_MarkupCompile.cache
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.g.resources
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.Properties.Resources.resources
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Release\GenerateResource.write.1.tlog
