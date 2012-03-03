@@ -1,0 +1,61 @@
+<html>
+   <head>
+      <script src='http://code.jquery.com/jquery-1.7.1.min.js'></script>  
+      <script src='d3/d3.js'></script>  
+      <script type="text/javascript">
+<<<<<<< HEAD
+         window.onload = function() {
+ 
+            var ws_uri = "ws://localhost:9000";
+ 
+=======
+         window.onload = function() { 
+            var ws_uri = "ws://localhost:9000"; 
+>>>>>>> 23869e53fca8c44d2d568d2891c1219a510d4eb4
+            if ("WebSocket" in window) {
+               webSocket = new WebSocket(ws_uri);
+            }
+            else {
+               // Firefox 7/8 currently prefixes the WebSocket object
+               webSocket = new MozWebSocket(ws_uri);
+            }
+ 
+            webSocket.onmessage = function(e) {
+               console.log("Got echo: " + e.data);               
+               $('#MyDisplay').text(e.data);
+               var tmp = e.data.split(",");
+               var xPosition= parseInt(tmp[0]);
+               var yPosition= parseInt(tmp[1]);
+               console.log(xPosition);
+               MyCircle.attr("cx", xPosition);
+               MyCircle.attr("cy", yPosition);
+            }
+         }
+      </script>
+   </head>
+   <body>
+      <h1>Autobahn WebSockets Echo Test</h1>
+      <button onclick='webSocket.send("Hello, world!");'>Send Hello</button>
+      <div id="MyDisplay" style="border: solid 2px; width: 200px; height: 50px;">
+      </div>
+      <div id="MyCircleSVG">
+      </div>
+      <script>
+          MyCircleSVG = d3.select("#MyCircleSVG")
+            .append("svg:svg")
+            .attr("width", 800)
+            .attr("height", 700)
+            .style("border", "solid 2px")
+            .style("margin-top", "10px");
+             
+         MyCircle = MyCircleSVG.append("svg:circle")
+            .attr("cx", 50)
+            .attr("cy", 40)
+            .attr("r", 10);
+      </script>
+   </body>
+<<<<<<< HEAD
+</html>
+=======
+</html>
+>>>>>>> 23869e53fca8c44d2d568d2891c1219a510d4eb4

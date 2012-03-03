@@ -1,0 +1,13 @@
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\App.g.cs
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\AlignRGBDepth_MarkupCompile.cache
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\bin\Debug\AlignRGBDepth.exe
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\bin\Debug\AlignRGBDepth.pdb
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\MainWindow.baml
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\AlignRGBDepth.g.resources
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\AlignRGBDepth.Properties.Resources.resources
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\AlignRGBDepth.exe
+C:\Users\Michael Zhang\Dropbox\Kinect\AlignRGBDepth\AlignRGBDepth\obj\x86\Debug\AlignRGBDepth.pdb

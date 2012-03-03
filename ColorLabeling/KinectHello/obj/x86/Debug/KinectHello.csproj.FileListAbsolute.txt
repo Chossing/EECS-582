@@ -1,0 +1,13 @@
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\bin\Debug\KinectHello.exe
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\bin\Debug\KinectHello.pdb
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\MainWindow.baml
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\MainWindow.g.cs
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\App.g.cs
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\KinectHello_MarkupCompile.cache
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\KinectHello.g.resources
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\KinectHello.Properties.Resources.resources
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\KinectHello.exe
+c:\users\arun\documents\visual studio 2010\Projects\KinectHello\KinectHello\obj\x86\Debug\KinectHello.pdb

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  </head>
+  <body>
+    <svg  id="svgParent" width="500" height="500">
+    </svg>
+    <script type="text/javascript">
+    mode = "XML"; //"SVG:USE" ;
+    if (mode=="XML"){
+        d3.xml("http://localhost/Lefthand.svg", "image/svg+xml", function(xml) {
+            externalSVG = xml.documentElement;
+            //d3.select("body").append(externalSVG);
+            externalSVGElement = $("#svgParent").append(xml.documentElement)[0];
+        });
+    }    
+    else{
+        d3.select("body").append("svg:svg")
+            .append("svg:use")
+                .attr("xlink:href", "http://localhost/Lefthand.svg");
+     }
+    </script>
+  </body>
+</html>

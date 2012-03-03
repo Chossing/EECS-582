@@ -1,0 +1,13 @@
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\bin\Release\ColorLabeling.exe
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\bin\Release\ColorLabeling.pdb
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\MainWindow.baml
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\MainWindow.g.cs
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\App.g.cs
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling_MarkupCompile.cache
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.g.resources
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.Properties.Resources.resources
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.exe
+C:\Users\Arun\Documents\Visual Studio 2010\Projects\ColorLabeling\KinectHello\obj\x86\Release\ColorLabeling.pdb
