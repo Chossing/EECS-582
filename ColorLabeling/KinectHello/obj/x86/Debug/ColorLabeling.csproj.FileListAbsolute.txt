@@ -24,3 +24,5 @@ C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabelin
 C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.Properties.Resources.resources
 C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.exe
+C:\Users\Michael Zhang\Dropbox\Kinect\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.pdb

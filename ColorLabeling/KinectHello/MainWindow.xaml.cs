@@ -85,7 +85,7 @@ namespace ColorLabeling
                 }
             }
 
-
+            // Test: Michael
             // Populate bitmapBits with 255
             for (int i = 0; i < _colorPixels.Length; i++) _bitmapBits[i] = 255;
 
