@@ -85,9 +85,14 @@ namespace ColorLabeling
                 }
             }
 
+            // Maximum short = 32767
+            // Minimum short = 0 ...
 
-            // Populate bitmapBits with 255
-            for (int i = 0; i < _colorPixels.Length; i++) _bitmapBits[i] = 255;
+            //for (int i = 0; i < _colorPixels.Length; i++) _bitmapBits[i] = 255;
+            // Draw the un-mapped depth image
+            for (int i = 0; i < _depthPixels.Length; i++) _bitmapBits[4*i] = _bitmapBits[4*i + 1] = _bitmapBits[4*i + 2] = _bitmapBits[4*i + 3] = (byte)(255*(32767 - _depthPixels[i])/32767);
+
+
 
             /*
             // Put the color image into _bitmapBits
@@ -100,13 +105,10 @@ namespace ColorLabeling
             }
             */
 
+            
             this._sensor.MapDepthFrameToColorFrame(DepthImageFormat.Resolution640x480Fps30, _depthPixels, ColorImageFormat.YuvResolution640x480Fps15, _mappedDepthLocations);
             
-            // Depth map in _mappedDepthLocations
-            // Color map in _colorPixels
-            
-            // Classify each pixel as one of a finite set of colors 
-            // And only applying this on nearby items
+
             for (int i = 0; i < _depthPixels.Length; i++)
             {
                 int depthVal = _depthPixels[i] >> DepthImageFrame.PlayerIndexBitmaskWidth;
@@ -129,13 +131,13 @@ namespace ColorLabeling
                         _bitmapBits[baseIndex + 2] = colorMatch[0];
                         */
 
-                        _bitmapBits[baseIndex] = _colorPixels[baseIndex];
-                        _bitmapBits[baseIndex + 1] = _colorPixels[baseIndex + 1];
-                        _bitmapBits[baseIndex + 2] = _colorPixels[baseIndex + 2];
+                        //_bitmapBits[baseIndex] = _colorPixels[baseIndex];
+                        //_bitmapBits[baseIndex + 1] = _colorPixels[baseIndex + 1];
+                        //_bitmapBits[baseIndex + 2] = _colorPixels[baseIndex + 2];
 
                         //_bitmapBits[baseIndex] = _bitmapBits[baseIndex + 1] = _bitmapBits[baseIndex + 2] = (byte)depthVal;
                     } else {
-                        _bitmapBits[baseIndex] = _bitmapBits[baseIndex + 1] = _bitmapBits[baseIndex + 2] = (byte)255;
+                        //_bitmapBits[baseIndex] = _bitmapBits[baseIndex + 1] = _bitmapBits[baseIndex + 2] = (byte)255;
                     }
                 }
             }

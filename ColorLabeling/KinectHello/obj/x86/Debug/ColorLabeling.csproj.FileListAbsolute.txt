@@ -24,3 +24,16 @@ C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabelin
 C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.Properties.Resources.resources
 C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\cygwin\home\Arun\EECS582\ColorLabeling\KinectHello\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.exe
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.pdb
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\bin\Debug\ColorLabeling.exe
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\bin\Debug\ColorLabeling.pdb
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\MainWindow.baml
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\MainWindow.g.cs
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\App.g.cs
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling_MarkupCompile.cache
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.g.resources
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\ColorLabeling.Properties.Resources.resources
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\cygwin\home\Arun\EECS-582\ColorLabeling\KinectHello\obj\x86\Debug\GenerateResource.write.1.tlog
